@@ -15,7 +15,7 @@ const ImagePicker = () => {
     <div className="imagePickerContainer">
       {!selectedPreview ? (
         <>
-          <h1 className="imagePickerTitle"> Pick Image!</h1>
+          <h1 className="imagePickerTitle"> Upload image..</h1>
           <div className="pictureInput">
             {' '}
             <input type="file" accept="image/*" onChange={handleFile} />{' '}

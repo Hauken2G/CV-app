@@ -4,6 +4,8 @@
   padding-top: 5px;
 }
 .body {
+  display: flex;
+  flex-direction: column;
   background-color: lightslategray;
   min-height: 100vh;
   padding: 0;
@@ -11,4 +13,8 @@
 }
 * {
   margin: 0;
+}
+.midSection {
+  display: flex;
+  justify-content: center;
 }
