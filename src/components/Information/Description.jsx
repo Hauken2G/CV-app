@@ -27,14 +27,12 @@ const Description = () => {
             onChange={handleProfession}
           />
         </div>
-        <div className="descriptionContainer">
-          <textarea
-            className="descriptionText"
-            placeholder="Description.."
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
-          />
-        </div>
+        <textarea
+          className="descriptionText"
+          placeholder="Description.."
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+        />
       </div>
     </>
   );

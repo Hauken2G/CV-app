@@ -18,7 +18,12 @@ const ImagePicker = () => {
           <h1 className="imagePickerTitle"> Upload image..</h1>
           <div className="pictureInput">
             {' '}
-            <input type="file" accept="image/*" onChange={handleFile} />{' '}
+            <input
+              className="chooseFile"
+              type="file"
+              accept="image/*"
+              onChange={handleFile}
+            />{' '}
           </div>{' '}
         </>
       ) : (

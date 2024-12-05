@@ -1,20 +1,29 @@
-.header {
-  display: flex;
-  justify-content: center;
-  padding-top: 5px;
-}
 .body {
   display: flex;
   flex-direction: column;
-  background-color: lightslategray;
+  align-items: center;
   min-height: 100vh;
+  max-width: 454px;
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
+  background-color: lightslategray;
 }
+
 * {
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .midSection {
   display: flex;
-  justify-content: center;
+  background-color: gray;
+}
+
+input {
+  text-align: center;
 }

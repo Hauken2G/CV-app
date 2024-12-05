@@ -1,35 +1,19 @@
 .information {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-}
-.informationHeader ::placeholder {
-  background-color: rgb(97, 95, 95);
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 15px;
-}
-input::placeholder {
-  font-weight: bold;
-  opacity: 0.5;
-  color: black;
-}
-.descriptionContainer ::placeholder {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-}
-textarea::placeholder {
-  font-weight: bold;
-  opacity: 0.5;
-  color: black;
+  height: 150px;
 }
 
-.descriptionText {
-  background-color: rgb(97, 95, 95);
-  width: 410px;
-  height: 224px;
-  border-width: 0px;
+.informationHeader {
+  display: flex;
+  width: 100%;
 }
+
 input {
-  width: 200px;
-  border-width: 2px;
+  width: 50%;
+}
+.descriptionText {
+  width: 98%;
+  height: 125px;
 }

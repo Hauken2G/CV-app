@@ -1,18 +1,17 @@
 .imagePickerContainer {
+  width: 150px;
+  height: 150px;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  background-color: rgb(116, 102, 102);
-  width: 250px;
-  height: 250px;
+  align-items: center;
 }
-
-.pictureInput {
-  margin-left: 2px;
+.imagePickerTitle {
+  display: flex;
+  font-size: 20px;
 }
-
-.cvPicture {
-  max-width: 200px;
-  max-height: 200px;
+.chooseFile {
+  font-size: 10px;
+  width: 150px;
 }
